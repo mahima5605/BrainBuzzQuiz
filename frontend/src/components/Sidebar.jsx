@@ -5,7 +5,7 @@ import { sidebarStyles } from "../assets/dummyStyles"
 import questionsData from "../assets/dummydata"
 import { Award, BookOpen, Code, Coffee, Cpu, Database, Globe, Layout, Sparkles, Star, Target, Terminal, Zap, Trophy, X, ChevronDown, ChevronRight, Menu, CheckCircle, XCircle } from "lucide-react";
 
-const API_BASE="http://localhost:4000";
+const API_BASE="https://brainbuzzquiz.onrender.com";
 
 const Sidebar = () => {
   const [selectedTech, setSelectedTech] = useState(null);
